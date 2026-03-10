@@ -1,11 +1,14 @@
 # Playwright Automation Framework
-A high-performance End-to-End (E2E) automation testing suite built with **Playwright** and **TypeScript**. This framework is designed for the **[RocScience](https://www.rocscience.com/)** , focusing on scalability, maintainability.
+A high-performance End-to-End (E2E) automation testing suite built with **Playwright** and **TypeScript**. 
+This framework is designed for the **[RocScience](https://www.rocscience.com/)** , focusing on scalability, maintainability.
 
 ## Project Structure
 
 ```text
-├── pages/                # Page Object Model classes
+├── page_objects/         # Contain Page Object Model classes
 ├── tests/                # Test specifications (*.spec.ts)
+├── test-results/         # Contain screenshot, video recording, ...
+├── playwright-report/    # Contain test report
 ├── playwright.config.ts  # Global Playwright configuration
 └── package.json          # Dependency and script management
 ```
